@@ -24,10 +24,10 @@
 
 </p>
 
- ### screenshots 
+ ### screenshots 1
  ![screenshot](Screenshot_20220506-130000_Termux.png)
-
-
+ #### screenshots 2
+ ![insta logo](Screenshot_20220506-151821_Termux.png)
 ## Updates:
 **v1.0**<br>
 [+] Basic Features<br>
