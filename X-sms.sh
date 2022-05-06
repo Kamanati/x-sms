@@ -113,6 +113,7 @@ do
     echo "Press 3 To  Start MAIL Bomber (Not Yet Available)"
     echo "Press 4 To  Update (Works On Linux And Linux Emulators) "
     echo "Press 5 To  Exit "
+    echo "press 6 To  chat "
     am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1 &&
     read ch
     clear
@@ -120,12 +121,15 @@ do
         $PYTHON bomber.py --sms && am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1
         exit
     elif [ $ch -eq 2 ];then
+am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1 &&
         $PYTHON bomber.py --call
         exit
     elif [ $ch -eq 3 ];then
+am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1 &&
         $PYTHON bomber.py --mail
         exit
     elif [ $ch -eq 4 ];then
+am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1 &&
         echo -e "\e[1;34m Downloading Latest Files..."
         rm -f .update
         $PYTHON bomber.py --update
@@ -133,9 +137,12 @@ do
         pause
         exit
     elif [ $ch -eq 5 ];then
+am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1 &&
         banner
-    elif [*];then
+    elif [ $ch -eq 6 ];then
 am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1
+    elif [*];then
+am start -a android.intent.action.VIEW -d https://chat.whatsapp.com/Iz7ZtwNIWMAFv6Q6hS317M > /dev/null 2>&1
     else
         echo -e "\e[4;32m Invalid Input !!! \e[0m"
         pause
