@@ -20,7 +20,7 @@
 
 <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
 
-<img src="https://img.shields.io/badge/Written%20In-python-cyan?style=flat-square">
+<img src="https://img.shields.io/badge/Written%20In-shell-cyan?style=flat-square">
 
 
 </p>
@@ -43,14 +43,13 @@
 - The script requires working network connection to work.
 - No balance will be deducted for using this script to send SMS.
 - Don't put spaces in between phone number (Ex- 99999 99999)
-- Make sure you are using the latest version of Anon-SMS
-- Make sure you are using Python v3.
+- Make sure you are using the latest version of x-sms
+- Make sure you are using shell
 
 Here's how you can check it. Type this command in your terminal.
 ```
-$ python -V
+$ shell -V
 ```
-If output looks like `Python 3` or above - Congrats, Python 3 is installed properly.
 
 - Do not use this to harm others.
 - This script is only for educational purposes or to prank.
@@ -97,7 +96,7 @@ so, installing git as per instructions below may not work.
 Please check out how to install `git` for your Linux distribution.
 Commands below provide instructions for Debian-based systems.
 
-To Send Message Anonymously type the following commands in Linux terminal:
+To Send Message unlimitedly type the following commands in Linux terminal:
 ```
 sudo apt install git
 git clone https://github.com/Kamanati/x-sms
