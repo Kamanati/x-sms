@@ -81,15 +81,16 @@ so, installing git as per instructions below may not work.
 Please check out how to install `git` for your Linux distribution.
 Commands below provide instructions for Debian-based systems.
 
-To Send Messages Anonymously type the following commands in Termux:
+To Send unlimited Message type the following commands in Termux:
 ```
 pkg install git
 pkg install python
-git clone https://github.com/Kamanati/sms-anony
+git clone https://github.com/Kamanati/x-sms
 cd x-sms
 bash x-sms.sh
 ```
-
+### screenshots 3
+ ![GitHub Logo](IMG-20220506-WA0001.jpg)
 ### > For Linux:
 
 **Notice:** 
