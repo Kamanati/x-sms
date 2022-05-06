@@ -83,7 +83,7 @@ To Send Messages Anonymously type the following commands in Termux:
 pkg install git
 pkg install python
 git clone https://github.com/Kamanati/sms-anony
-cd sms-anony
+cd x-sms
 bash x-sms.sh
 ```
 
@@ -100,7 +100,7 @@ To Send Message unlimitedly type the following commands in Linux terminal:
 ```
 sudo apt install git
 git clone https://github.com/Kamanati/x-sms
-cd cd x-sms
+cd x-sms
 sudo bash x-sms.sh
 ```
 
