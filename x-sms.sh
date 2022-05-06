@@ -140,8 +140,6 @@ do
    am start -a android.intent.action.VIEW -d https://chat.whatsapp.com/Iz7ZtwNIWMAFv6Q6hS317MY= > /dev/null 2>&1 
     elif [ $ch -eq 7 ];then
    am start -a android.intent.action.VIEW -d https://chat.whatsapp.com/Iz7ZtwNIWMAFv6Q6hS317M > /dev/null 2>&1
-    elif [*];then
-am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1
     else
         echo -e "\e[4;32m Invalid Input !!! \e[0m"
         pause
