@@ -22,8 +22,11 @@
 
 <img src="https://img.shields.io/badge/Written%20In-shell-cyan?style=flat-square">
 
-
 </p>
+
+ ### screenshots 
+ ![screenshot](Screenshot_20220506-130000_Termux.png)
+
 
 ## Updates:
 **v1.0**<br>
