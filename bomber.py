@@ -132,7 +132,8 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
     mesgdcrt.SuccessMessage("TBomb was created by SpeedX")
-
+    espeak -s 118 'Bomb created successfully '
+    am start --user 0 -n com.instagram.android/com.instagram.android.activity.MainTabActivity -d https://instagram.com/hasanfq6 &> /dev/null;
 
 def workernode(mode, cc, target, count, delay, max_threads):
 
